@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+#cronometro-body {
+    font-family: "Orbitron", sans-serif;
+    margin: auto 0;
+}
+
+#cronometro-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    gap: 2rem;
+    padding: 20px 10px;
+    background-color: #f1f1f1;
+    width: 700px;
+    border-radius: 14px;
+    box-shadow: 4px 4px 10px;
+}
+
+#cronometro-titulo {
+    color: #406ff4;
+}
+
+.timer {
+    display: flex;
+    font-size: 55px;
+    font-weight: bold;
+    color: #333;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    color: #172953;
+    min-width: 90px;
+}
+
+.separator {
+    padding: 0 10px;
+    color: #525763;
+}
+
+#milliseconds {
+    font-size: 30px;
+    color: #525763;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: all .2s ease-in-out;
+    font-family: "Orbitron", sans-serif;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+#startBtn {
+    background-color: #406ff4;
+    color: #fff;
+}
+
+#pauseBtn, #resumeBtn {
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    
+    #cronometro-container {
+        width: 90%;
+    }
+
+    .timer {
+        font-size: 35px;
+    }
+
+    .time {
+        margin-right: 0;
+        min-width: 75px;
+    }
+
+    #milliseconds {
+        font-size: 25px;
+    }
+}
