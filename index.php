@@ -34,6 +34,14 @@ include $_SERVER['DOCUMENT_ROOT'] . $base_url . '/includes/header.php';
                     <a href="<?php echo $base_url; ?>/pages/calculadora.php"><i class="fa-solid fa-link"></i></a>
                 </div>
             </div>
+            <div class="home-card">
+                <img src="<?php echo $base_url; ?> /assets/images/notas-capa.png" alt="">
+                <h2>Calculadora - Notas</h2>
+                <div class="descricao-card">
+                    <a href="https://github.com/DanielMVP7/calculadora-notas.js" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="<?php echo $base_url; ?>/pages/notas.php"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
             
         </div>
     </section>

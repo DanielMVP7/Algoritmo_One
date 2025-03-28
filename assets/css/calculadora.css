@@ -45,24 +45,24 @@
 
 }
 
-button {
+.container-botoes button {
     border: none;
     height: 60px;
     border-radius: 6px;
     font-size: 20px;
 }
 
-button:hover {
+.container-botoes button:hover {
     background-color: #e1e1e1;
     cursor: pointer;
     transition: .4s;
 }
 
-.btn-zero {
+.container-botoes .btn-zero {
     grid-column: 1 / 3;
 }
 
-.btn-resultado {
+.container-botoes .btn-resultado {
     grid-row: 4 / 6;
     height: 100%;
     grid-column: 4;
